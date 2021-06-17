@@ -1,0 +1,22 @@
+{
+    "name": "code/neighter",
+    "description": "Codeigniter with Aws",
+    "type": "library",
+    "require": {
+        "aws/aws-sdk-php": "2.*",
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Code\\Neighter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Func",
+            "email": "kayes.func@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
